@@ -186,7 +186,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 function add_theme_scripts() {
 	wp_enqueue_style( 'stylesheet', get_template_directory_uri() . '/css/style-footer.css');
 	wp_enqueue_style( 'stylesheet', 'https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Open+Sans:wght@400;700&display=swap');
-	wp_enqueue_style( 'stylesheet', get_stylesheet_uri() );
+	wp_enqueue_style( 'style', get_stylesheet_uri() );
 }
-add_action( 'wp_enqueue_scripts', 'add_theme_scripts', 11 );
+add_action( 'wp_enqueue_scripts', 'add_theme_scripts');
 
