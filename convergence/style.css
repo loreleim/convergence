@@ -35,3 +35,10 @@ p {
   font-weight: 400;
 }
 
+/*Home*/
+
+.firstSection {
+  width: 100%;
+  height: 100vh;
+}
+
