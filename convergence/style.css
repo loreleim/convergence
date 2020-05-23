@@ -98,6 +98,8 @@ footer {
   text-transform: uppercase;
 }
 
+.footerRight li {
+  list-style: none;
   text-decoration: none;
 .footerRight a:hover {
   color: #45f4ef;
