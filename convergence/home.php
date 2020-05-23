@@ -7,4 +7,8 @@
 	get_header();
 ?>
 
+<main>
+    <section class="firstSection">
         <h1><?php echo the_field('tagline');?></h1>
+    </section>
+</main>
