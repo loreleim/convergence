@@ -90,4 +90,7 @@ footer {
 }
 
   text-decoration: none;
+.footerRight a:hover {
   color: #45f4ef;
+  transition: 0.25s ease-in-out;
+}
