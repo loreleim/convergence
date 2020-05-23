@@ -12,10 +12,6 @@
 ?>
 
 	<footer>
-		<div>
-			&copy;
-			<?php echo date('Y'); ?>
-			Convergence Design Lab, LLC
 		<div class="footerLeft">
 			<div class="footerMotto">Designing the Future of Participation</div>
 			<div class="socialBar">
@@ -33,6 +29,14 @@
 				Convergence Design Lab, LLC
 			</div>
 		</div>
+		<div class="footerRight">
+			<ul>
+				<a><li>Home</li></a>
+				<a><li>Who We Are</li></a>
+				<a><li>Workspace</li></a>
+				<a><li>Tools</li></a>
+				<a><li>Connect</li></a>
+			</ul>
 		</div>
 	</footer>
 
