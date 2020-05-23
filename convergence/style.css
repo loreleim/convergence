@@ -101,6 +101,7 @@ footer {
 .footerRight li {
   list-style: none;
   text-decoration: none;
+  cursor: pointer;
 .footerRight a:hover {
   color: #45f4ef;
   transition: 0.25s ease-in-out;
