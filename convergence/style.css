@@ -48,3 +48,12 @@ Dosis 700
 Open Sans 400
 Open Sans 700*/
 
+footer {
+  color: white;
+  height: fit-content;
+  width: 100%;
+  padding: 2rem;
+  background-color: #23144c;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+}
