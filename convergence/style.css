@@ -102,6 +102,13 @@ footer {
   list-style: none;
   text-decoration: none;
   cursor: pointer;
+}
+
+.footerRight a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .footerRight a:hover {
   color: #45f4ef;
   transition: 0.25s ease-in-out;
