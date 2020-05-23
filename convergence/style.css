@@ -78,6 +78,12 @@ footer {
   margin-bottom: 1rem;
 }
 
+.socialBar li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .copyrightInfo {
   font-size: 10.5px;
