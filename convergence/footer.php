@@ -16,6 +16,23 @@
 			&copy;
 			<?php echo date('Y'); ?>
 			Convergence Design Lab, LLC
+		<div class="footerLeft">
+			<div class="footerMotto">Designing the Future of Participation</div>
+			<div class="socialBar">
+				<ul>
+					<li><a href="http://google.com" target="_blank">Twitter</a></li>
+					<li><a href="http://google.com" target="_blank">LinkedIn</a></li>
+					<li><a href="http://google.com" target="_blank">Medium</a></li>
+					<li><a href="http://google.com" target="_blank">Facebook</a></li>
+					<li><a href="http://google.com" target="_blank">Instagram</a></li>
+				</ul>
+			</div>
+			<div class="copyrightInfo">
+				&copy;
+				<?php echo date('Y'); ?>
+				Convergence Design Lab, LLC
+			</div>
+		</div>
 		</div>
 	</footer>
 
