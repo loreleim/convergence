@@ -59,3 +59,9 @@ footer {
   font-family: "Dosis", sans-serif;
   font-weight: 700;
 }
+
+.footerLeft {
+  display: inline-block;
+  width: 50%;
+  height: fit-content;
+}
