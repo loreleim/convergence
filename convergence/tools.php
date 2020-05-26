@@ -8,8 +8,10 @@
 ?>
 
 <main>
+<section class="nonHomeSection">
 		<div class="taglineContainer">
 		</div>
+    </section>
 </main>
 
 <?php

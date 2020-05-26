@@ -8,6 +8,7 @@
 ?>
 
 <main>
+	<section class="nonHomeSection">
 			<div class="taglineContainer">
 			</div>
 </main>
