@@ -20,6 +20,12 @@ if ( $result-> have_posts() ) :
 	<?php echo the_field('featured_image');?>
 	<?php echo the_field('title');?>
 	<a href="<?php echo the_field('medium_link');?>" target="_blank">	<div class="button">
+		Read More
+	</div></a>
+	<p>
+		<?php echo the_field('snippet');?>
+	</p>
+	
 	<?php endwhile; ?>
 	<?php endif; wp_reset_postdata(); ?>
 </main>
