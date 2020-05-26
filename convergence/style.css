@@ -31,6 +31,10 @@ h1 {
 h2 {
   font-family: "Dosis", sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.75rem;
+  color: #23144c;
 }
 
 /*Medium Titles*/
