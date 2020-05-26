@@ -133,6 +133,25 @@ footer {
 @media (min-width: 750px) {
 }
 
+@media (min-width: 1000px) {
+  .taglineContainer {
+    padding: 10rem;
+  }
+  .firstSection h1 {
+    width: 80%;
+  }
+  h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .button {
+    margin-right: 1rem;
+  }
+}
+
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   .taglineContainer {
