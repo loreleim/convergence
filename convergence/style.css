@@ -17,6 +17,7 @@ a {
   text-decoration: none;
 }
 
+/*Tagline*/
 h1 {
   font-family: "Dosis", sans-serif;
   font-weight: 700;
@@ -26,14 +27,17 @@ h1 {
   color: #23144c;
 }
 
+/*Site or Page Title*/
 h2 {
   font-family: "Dosis", sans-serif;
   font-weight: 700;
 }
 
+/*Medium Titles*/
 h3 {
   font-family: "Open Sans", sans-serif;
   font-family: 400;
+/*Buttons*/
 }
 
 p {
@@ -41,6 +45,7 @@ p {
   font-weight: 400;
 }
 
+/*Header*/
 /*Home*/
 
 .firstSection {
@@ -53,6 +58,7 @@ font-family: 'Open Sans', sans-serif;
 Dosis 700
 Open Sans 400
 Open Sans 700*/
+/*Who We Are*/
 
 /*Footer*/
 
@@ -119,3 +125,4 @@ footer {
   color: #45f4ef;
   transition: 0.25s ease-in-out;
 }
+/*Media Queries*/
