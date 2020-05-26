@@ -11,6 +11,7 @@
     <section class="firstSection">
 		<div class="taglineContainer">
 			<h1><?php echo the_field('tagline');?></h1>
+            <h2><?php bloginfo( 'name' ); ?></h2>
             <div class="homeButtons">
                 <a href=<?php echo the_field('button_one_link');?> target="_blank">
                     <div class="button">
