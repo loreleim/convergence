@@ -15,7 +15,12 @@ $args = array(
 $result = new WP_Query( $args );
 if ( $result-> have_posts() ) :
 ?>
+
 <main>
+	
+	<section class="nonHomeSection">
+    </section>
+
 	<?php while ( $result->have_posts() ) : $result->the_post(); ?>
 	<?php echo the_field('featured_image');?>
 	<?php echo the_field('title');?>
@@ -28,6 +33,8 @@ if ( $result-> have_posts() ) :
 	
 	<?php endwhile; ?>
 	<?php endif; wp_reset_postdata(); ?>
+	
 </main>
+
 <?php
 get_footer();?>
