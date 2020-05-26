@@ -22,11 +22,13 @@ if ( $result-> have_posts() ) :
 		<div class="taglineContainer">
 			<h2><?php wp_title( '' ); ?></h2>
 			<h1><?php echo the_field('tagline');?></h1>
+            <div class="homeButtons">
                 <a href=<?php echo the_field('button_one_link');?> target="_blank">
                     <div class="button">
                         <h4><?php echo the_field('button_one_text');?></h4>
                     </div>
                 </a>
+            </div>
 		</div>
     </section>
 
