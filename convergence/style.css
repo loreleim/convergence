@@ -21,8 +21,9 @@ h1 {
   font-family: "Dosis", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: #23144c;
 }
 
 h2 {
