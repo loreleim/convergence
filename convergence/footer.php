@@ -30,13 +30,7 @@
 			</div>
 		</div>
 		<div class="footerRight">
-			<ul>
-				<a><li>Home</li></a>
-				<a><li>Who We Are</li></a>
-				<a><li>Workspace</li></a>
-				<a><li>Tools</li></a>
-				<a><li>Connect</li></a>
-			</ul>
+			<?php get_sidebar(); ?>
 		</div>
 	</footer>
 
