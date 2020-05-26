@@ -129,3 +129,6 @@ footer {
 @media (min-width: 550px) {
 }
 
+/* For Screens & Macs */
+@media (min-width: 2000px) {
+}
