@@ -19,6 +19,8 @@ if ( $result-> have_posts() ) :
 <main>
 	
 	<section class="nonHomeSection">
+		<div class="taglineContainer">
+		</div>
     </section>
 
 	<?php while ( $result->have_posts() ) : $result->the_post(); ?>

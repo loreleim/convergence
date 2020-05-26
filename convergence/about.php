@@ -9,7 +9,9 @@
 
 <main>
     <section class="nonHomeSection">
+		<div class="taglineContainer">
 			<h1><?php echo the_field('tagline');?></h1>
+		</div>
     </section>
 </main>
 

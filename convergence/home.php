@@ -10,6 +10,8 @@
 <main>
     <section class="firstSection">
         <h1><?php echo the_field('tagline');?></h1>
+		<div class="taglineContainer">
+		</div>
     </section>
 </main>
 

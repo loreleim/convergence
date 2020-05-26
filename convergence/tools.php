@@ -8,6 +8,8 @@
 ?>
 
 <main>
+		<div class="taglineContainer">
+		</div>
 </main>
 
 <?php
