@@ -6,5 +6,6 @@
 	
 	get_header();
 ?>
+			<h1><?php echo the_field('tagline');?></h1>
 <?php
 get_footer();?>
