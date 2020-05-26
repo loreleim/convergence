@@ -10,6 +10,7 @@ $args = array(
 'orderby'    => 'ID',
 'post_status' => 'publish',
 'order'    => 'DESC',
+'posts_per_page' => -1 // this will retrive all the post that is published 
 );
 <?php
 get_footer();?>
