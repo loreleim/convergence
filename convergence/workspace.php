@@ -5,5 +5,7 @@
 	*/
 	
 	get_header();
+$args = array(
+);
 <?php
 get_footer();?>
