@@ -20,6 +20,7 @@ if ( $result-> have_posts() ) :
 	
 	<section class="nonHomeSection">
 		<div class="taglineContainer">
+			<h2><?php wp_title( '' ); ?></h2>
 		</div>
     </section>
 
