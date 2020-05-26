@@ -16,6 +16,7 @@ $result = new WP_Query( $args );
 if ( $result-> have_posts() ) :
 ?>
 	<?php while ( $result->have_posts() ) : $result->the_post(); ?>
+	<?php echo the_field('featured_image');?>
 	<?php endwhile; ?>
 	<?php endif; wp_reset_postdata(); ?>
 <?php
