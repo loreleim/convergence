@@ -17,5 +17,6 @@ if ( $result-> have_posts() ) :
 ?>
 	<?php while ( $result->have_posts() ) : $result->the_post(); ?>
 	<?php endwhile; ?>
+	<?php endif; wp_reset_postdata(); ?>
 <?php
 get_footer();?>
