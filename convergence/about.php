@@ -10,6 +10,7 @@
 <main>
     <section class="nonHomeSection">
 		<div class="taglineContainer">
+			<h2><?php wp_title( '' ); ?></h2>
 			<h1><?php echo the_field('tagline');?></h1>
 		</div>
     </section>
