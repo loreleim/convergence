@@ -125,3 +125,7 @@ footer {
   transition: 0.25s ease-in-out;
 }
 /*Media Queries*/
+/* Larger than tablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+}
+
