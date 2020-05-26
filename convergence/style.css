@@ -129,6 +129,26 @@ footer {
 @media (min-width: 550px) {
 }
 
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  .taglineContainer {
+    padding: 10rem;
+  }
+  .firstSection h1 {
+    width: 70%;
+  }
+  h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .button {
+    margin-right: 1rem;
+  }
+}
+
 /* For Screens & Macs */
 @media (min-width: 2000px) {
 }
