@@ -18,6 +18,8 @@ if ( $result-> have_posts() ) :
 <main>
 	<?php while ( $result->have_posts() ) : $result->the_post(); ?>
 	<?php echo the_field('featured_image');?>
+	<?php echo the_field('title');?>
+	<a href="<?php echo the_field('medium_link');?>" target="_blank">	<div class="button">
 	<?php endwhile; ?>
 	<?php endif; wp_reset_postdata(); ?>
 </main>

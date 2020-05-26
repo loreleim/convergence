@@ -25,3 +25,17 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 
+	<header>
+		<div class="logoContainer">
+			Logo
+		</div>
+		<div class="hamburgerMenu">
+			<div id="one" class="hamburgerLine"></div>
+			<div id="two" class="hamburgerLine"></div>
+			<div id="three" class="hamburgerLine"></div>
+			<nav>
+				Navigation
+			</nav>
+		</div>
+
+	</header>
