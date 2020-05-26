@@ -59,6 +59,10 @@ p {
 
 /*Who We Are*/
 
+.nonHomeSection h2 {
+  margin-bottom: 2rem;
+}
+
 /*Footer*/
 
 footer {
@@ -124,6 +128,7 @@ footer {
   color: #45f4ef;
   transition: 0.25s ease-in-out;
 }
+
 /*Media Queries*/
 /* Larger than tablet (also point when grid becomes active) */
 @media (min-width: 550px) {
