@@ -7,6 +7,7 @@
 	get_header();
 $args = array(
 'post_type'=> 'post',
+'orderby'    => 'ID',
 );
 <?php
 get_footer();?>
