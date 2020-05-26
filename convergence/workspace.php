@@ -8,6 +8,7 @@
 $args = array(
 'post_type'=> 'post',
 'orderby'    => 'ID',
+'post_status' => 'publish',
 );
 <?php
 get_footer();?>
