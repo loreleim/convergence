@@ -41,6 +41,10 @@ h2 {
 h3 {
   font-family: "Open Sans", sans-serif;
   font-family: 400;
+  text-transform: uppercase;
+  color: #23144c;
+}
+
 /*Buttons*/
 }
 
