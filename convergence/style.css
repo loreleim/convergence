@@ -46,6 +46,15 @@ h3 {
 }
 
 /*Buttons*/
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-family: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.6rem;
+  padding-top: 0.75rem;
+  letter-spacing: 0.1rem;
+}
 }
 
 p {
