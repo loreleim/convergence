@@ -235,6 +235,12 @@ nav a:hover {
   transition: 0.25s ease-in-out;
 }
 
+nav a:focus {
+  outline: none;
+  color: #45f4ef;
+  transition: 0.25s ease-in-out;
+}
+
 /*Home*/
 
 .firstSection {
