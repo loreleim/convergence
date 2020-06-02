@@ -184,6 +184,21 @@ header svg {
   display: table-column;
 }
 
+.hamburgerMenu.on .overlay {
+  background-color: #23144c;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: show;
+  transition: opacity 0.35s, visibility 0.35s, width 0.35s;
+  overflow: hidden;
+  z-index: -1;
+}
+
 /*Home*/
 
 .firstSection {
