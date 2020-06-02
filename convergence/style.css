@@ -193,6 +193,10 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.connectForm #message textarea {
+  padding-top: 1rem;
+}
+
 .connectForm input[type="submit"]:hover {
   color: white;
   background-color: #23144c;
