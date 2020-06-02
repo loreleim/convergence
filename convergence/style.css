@@ -245,6 +245,13 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.caseContainer {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 6rem;
+  overflow: auto;
+}
+
 .caseText {
   width: 100%;
   float: left;
