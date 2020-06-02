@@ -345,6 +345,9 @@ footer {
   padding-top: 0rem;
 }
 
+.featuredContainer h2 {
+  margin-bottom: 2rem;
+}
 
 .featuredContainer img {
   width: 325px;
