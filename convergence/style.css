@@ -227,6 +227,10 @@ footer {
   border: none;
   border-width: 1px;
   border: 1px solid #23144c;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .connectForm form label {
   display: block;
   height: 2rem;
