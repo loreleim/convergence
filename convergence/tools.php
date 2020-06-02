@@ -31,6 +31,12 @@ if ( $result-> have_posts() ) :
             </div>
 		</div>
     </section>
+
+	<section class="featuredContainer">
+		<div class="featuredText">
+			<h2><?php echo date('M'); ?> <?php echo date('Y'); ?> Featured Projects</h2>
+		</div>
+	
 	<?php while ( $result->have_posts() ) : $result->the_post(); ?>
 	
 
