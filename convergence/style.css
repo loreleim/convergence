@@ -315,6 +315,8 @@ nav a:focus {
   text-align: center;
 }
 
+  width: 20vw;
+  height: 20vw;
 .blueCircle2 {
   position: relative;
   width: 20vw;
