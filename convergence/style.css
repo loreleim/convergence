@@ -245,6 +245,14 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.connectIcon {
+  width: 28%;
+  float: left;
+  vertical-align: top;
+  padding-top: 10rem;
+  padding-left: 2rem;
+}
+
 .connectForm {
   padding-right: 2rem;
   width: 70%;
