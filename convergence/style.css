@@ -223,6 +223,10 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+  border-style: solid;
+  border: none;
+  border-width: 1px;
+  border: 1px solid #23144c;
 .connectForm input[type="text"],
 input[type="email"] {
   width: 50%;
