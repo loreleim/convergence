@@ -203,23 +203,27 @@ footer {
 }
 
 @media (min-width: 1000px) {
-  .taglineContainer {
-    padding: 10rem;
+  .hamburgerMenu.on .overlay {
+    width: 30%;
   }
-  .firstSection h1 {
-    width: 80%;
+  .connectIcon {
+    padding-left: 10rem;
   }
-  h1 {
-    font-size: 5rem;
-    line-height: 5rem;
+  .caseContainer {
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
-  h2 {
-    font-size: 1.5rem;
+  .connectForm {
+    padding-left: 10rem;
+    padding-top: 6rem;
+    padding-right: 10rem;
   }
-  .button {
-    margin-right: 1rem;
+  .servicesTrio {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    transform: translateX(20%);
   }
-}
 
   #secondColumn {
     margin-left: 4rem;
