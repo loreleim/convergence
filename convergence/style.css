@@ -354,6 +354,13 @@ nav a:focus {
   width: fit-content;
 }
 
+.workSection {
+  width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+}
+
 
 .homeAccordion {
   margin-top: 2rem;
