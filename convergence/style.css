@@ -325,6 +325,11 @@ nav a:focus {
   padding-top: 0.75rem;
 }
 
+.homeAccordion.open + #accordion4 {
+  visibility: visible;
+  display: block;
+}
+
 .accordionCircle {
   width: 3rem;
   height: 3rem;
