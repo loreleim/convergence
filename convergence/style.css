@@ -317,6 +317,8 @@ nav a:focus {
 
 .blueCircle2 {
   position: relative;
+  width: 20vw;
+  height: 20vw;
   border: 2rem solid #45f4ef;
   border-radius: 20vw;
   right: 0;
