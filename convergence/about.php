@@ -21,6 +21,15 @@
             </div>
 		</div>
     </section>
+	
+	<section class="pageLinkSection">
+		<div class="contentContainer">
+			<h5><?php echo the_field('section_one_title');?></h5>
+			<p><?php echo the_field('section_one_copy')?></p>
+		</div>
+		<img src="<?php echo the_field('section_one_image');?>"/>
+	</section>
+	
 	<section class="partnersSection">
 			<h5><?php echo the_field('section2_title');?></h5>
 			<p><?php echo the_field('section2_copy');?></p>
