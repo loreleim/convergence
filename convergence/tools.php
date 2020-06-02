@@ -31,6 +31,7 @@ if ( $result-> have_posts() ) :
             </div>
 		</div>
     </section>
+	<?php endif; wp_reset_postdata(); ?>
 </main>
 
 <?php
