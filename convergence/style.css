@@ -245,6 +245,11 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.caseText {
+  width: 100%;
+  float: left;
+}
+
 /*Connect*/
 
 .connectSection {
