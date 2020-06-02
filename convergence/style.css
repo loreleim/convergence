@@ -225,6 +225,11 @@ nav li {
   font-size: 2rem;
 }
 
+nav a {
+  color: white;
+  z-index: 2;
+}
+
 /*Home*/
 
 .firstSection {
