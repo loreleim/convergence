@@ -123,7 +123,14 @@ header svg {
 
 }
 
+#three.hamburgerLine {
+  width: 50px;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #23144c;
   transition: all 0.5s ease-in-out;
+}
+
 .hamburgerMenu:hover #one.hamburgerLine,
 .hamburgerMenu:hover #two.hamburgerLine,
 .hamburgerMenu:hover #three.hamburgerLine {
