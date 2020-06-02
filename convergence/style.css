@@ -227,6 +227,20 @@ footer {
   border: none;
   border-width: 1px;
   border: 1px solid #23144c;
+.connectForm form textarea {
+  width: 50%;
+  height: 200px;
+  float: right;
+  border-style: solid;
+  border: none;
+  border-width: 1px;
+  border: 1px solid #23144c;
+  border-radius: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  resize: none;
+}
+
 .connectForm input[type="text"],
 input[type="email"] {
   width: 50%;
