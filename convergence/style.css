@@ -248,6 +248,9 @@ nav a:focus {
   height: 100vh;
 }
 
+.homeButtons {
+  margin-top: 2rem;
+}
 /*Who We Are*/
 
 .nonHomeSection {
