@@ -19,7 +19,7 @@ if ( $result-> have_posts() ) :
 
 <main>
 	
-	<section class="nonHomeSection">
+	<section class="workspaceTagline">
 		<div class="taglineContainer">
 			<h2><?php wp_title( '' ); ?></h2>
 			<h1><?php echo the_field('tagline');?></h1>
