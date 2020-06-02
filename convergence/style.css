@@ -343,6 +343,10 @@ nav a:focus {
   margin-bottom: 5rem;
 }
 
+.servicesColumn li {
+  display: block;
+}
+
 
 .homeAccordion {
   margin-top: 2rem;
