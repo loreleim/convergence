@@ -10,31 +10,49 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-
-		<?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', get_post_type() );
-
-			the_post_navigation(
-				array(
-					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'convergence' ) . '</span> <span class="nav-title">%title</span>',
-					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'convergence' ) . '</span> <span class="nav-title">%title</span>',
-				)
-			);
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-	</main><!-- #main -->
+	<main>
+		<section class="workspaceTagline">
+			<div class="taglineContainer">
+				<h2><?php echo the_field('sub_title'); ?></h2>
+				<h1><?php echo the_field('title');?></h1>
+			</div>
+    	</section>
+		
+		<section class="caseSection">
+			<div class="caseContainer">
+				<div class="caseImg">
+					
+				</div>
+				<div class="caseText">
+					<h2><?php echo the_field('profile_title');?></h2>
+					<p><?php echo the_field('profile'); ?></p>
+				</div>
+			</div>
+			<div class="caseContainer">
+				<div class="caseText">
+					<h2><?php echo the_field('challenge_title');?></h2>
+					<p><?php echo the_field('challenge'); ?></p>
+				</div>
+			</div>
+			<div class="caseContainer">
+				<div class="caseText">
+					<h2><?php echo the_field('approach_title');?></h2>
+					<p><?php echo the_field('approach'); ?></p>
+				</div>
+			</div>
+			<div class="caseContainer">
+				<div class="caseText">
+					<h2>Testimonials</h2>
+					<p><?php echo the_field('testimonial'); ?></p>
+				</div>
+			</div>
+    	</section>
+		
+		<script>
+			document.getElementsByClassName('caseText')[1].style.float = 'left';
+			document.getElementsByClassName('caseText')[3].style.float = 'left';
+		</script>
+	</main>
 
 <?php
-get_sidebar();
-get_footer();
+get_footer();?>
