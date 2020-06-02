@@ -109,6 +109,12 @@ header svg {
 }
 
   transition: all 0.5s ease-in-out;
+.hamburgerMenu.on #one.hamburgerLine {
+  background-color: white;
+  transform: rotate(45deg) translate(10px, 10px);
+  transition: all 0.5s ease-in-out;
+}
+
 .hamburgerMenu.on #two.hamburgerLine {
   opacity: 0;
   transition: all 0.5s ease-in-out;
