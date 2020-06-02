@@ -121,6 +121,13 @@ header svg {
   transition: all 0.5s ease-in-out;
 }
 
+.logoContainer {
+  display: inline-block;
+  padding-left: 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
 }
 
 #three.hamburgerLine {
