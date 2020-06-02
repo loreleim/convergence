@@ -44,6 +44,7 @@
 				<input type="submit" value="Send">
 			</form>
 		</div>
+	</section>
 </main>
 
 <?php
