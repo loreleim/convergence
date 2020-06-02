@@ -291,6 +291,16 @@ nav a:focus {
   transform: translate(0%, -50%);
 }
 
+.pageLinkSection img {
+  width: 30%;
+  height: 650px;
+  background-color: #23144c;
+  overflow: hidden;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+}
+
 /*Who We Are*/
 
 .nonHomeSection {
