@@ -5,6 +5,16 @@
 	*/
 	
 	get_header();
+$args = array(
+'post_type'=> 'post',
+'cat'      => [3],
+'orderby'    => 'ID',
+'post_status' => 'publish',
+'order'    => 'DESC',
+'posts_per_page' => -1 // this will retrive all the published posts
+);
+$result = new WP_Query( $args );
+if ( $result-> have_posts() ) :
 ?>
 
 <main>
