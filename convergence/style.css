@@ -245,6 +245,16 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.connectSection {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  padding-left: 2rem;
+}
+
 .connectIcon {
   width: 28%;
   float: left;
