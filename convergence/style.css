@@ -137,6 +137,13 @@ header svg {
   transition: all 0.5s ease-in-out;
 }
 
+#two.hamburgerLine {
+  width: 50px;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #23144c;
+  margin-bottom: 0.5rem;
+  transition: all 0.5s ease-in-out;
 }
 
 #three.hamburgerLine {
