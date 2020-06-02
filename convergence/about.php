@@ -24,6 +24,9 @@
 	<section class="partnersSection">
 			<h5><?php echo the_field('section2_title');?></h5>
 			<p><?php echo the_field('section2_copy');?></p>
+		<div class="otherPartners">
+			<p><?php echo the_field('other_partners');?></p>
+		</div>
 	</section>
 	
 </main>
