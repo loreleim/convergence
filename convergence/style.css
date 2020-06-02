@@ -310,6 +310,11 @@ nav a:focus {
   font-weight: 400;
 }
 
+.servicesSection h5 {
+  padding-top: 6rem;
+  text-align: center;
+}
+
 /*Who We Are*/
 
 .nonHomeSection {
