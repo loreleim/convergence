@@ -245,6 +245,10 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.connectForm form {
+  padding-top: 1rem;
+}
+
   border-style: solid;
   border: none;
   border-width: 1px;
