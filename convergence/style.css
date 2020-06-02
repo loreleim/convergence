@@ -305,6 +305,11 @@ nav a:focus {
   background-color: #fffbf8;
 }
 
+.servicesSection li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
 /*Who We Are*/
 
 .nonHomeSection {
