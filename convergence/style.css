@@ -1,953 +1,902 @@
 /*!
 Theme Name: Convergence
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: convergence
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
-
-Convergence is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+Author: Lorelei Miyamura
+Author URI: http://loreleimiyamura.com/
+Description: Chicken
+Version: 0.3.0
 */
 
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Widgets
-# Content
-	## Posts and pages
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
-
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
-	 ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-html {
-	line-height: 1.15;
-	-webkit-text-size-adjust: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Sections
-	 ========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-body {
-	margin: 0;
+section {
+  overflow: hidden;
 }
 
-/**
- * Render the `main` element consistently in IE.
- */
-main {
-	display: block;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
-}
-
-/* Grouping content
-	 ========================================================================== */
-
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-hr {
-	box-sizing: content-box;
-	height: 0;
-	overflow: visible;
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-pre {
-	font-family: monospace, monospace;
-	font-size: 1em;
-}
-
-/* Text-level semantics
-	 ========================================================================== */
-
-/**
- * Remove the gray background on active links in IE 10.
- */
 a {
-	background-color: transparent;
+  color: inherit;
+  text-decoration: none;
 }
 
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-abbr[title] {
-	border-bottom: none;
-	text-decoration: underline;
-	text-decoration: underline dotted;
+/*Tagline*/
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: #23144c;
 }
 
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-b,
-strong {
-	font-weight: bolder;
+/*Site or Page Title*/
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.75rem;
+  color: #23144c;
 }
 
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code,
-kbd,
-samp {
-	font-family: monospace, monospace;
-	font-size: 1em;
+/*Medium Titles*/
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-family: 400;
+  text-transform: uppercase;
+  color: #23144c;
 }
 
-/**
- * Add the correct font size in all browsers.
- */
-small {
-	font-size: 80%;
+/*Buttons*/
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-family: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.6rem;
+  padding-top: 0.75rem;
+  letter-spacing: 0.1rem;
 }
 
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-sub,
-sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+h5 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: #23144c;
 }
 
-sub {
-	bottom: -0.25em;
+.button {
+  width: 9rem;
+  height: 2.5rem;
+  display: inline-block;
+  border-radius: 4rem;
+  background-color: white;
+  border-style: solid;
+  border-width: 1.25px;
+  color: #ff5050;
+  cursor: pointer;
+  margin-bottom: 1rem;
 }
 
-sup {
-	top: -0.5em;
-}
-
-/* Embedded content
-	 ========================================================================== */
-
-/**
- * Remove the border on images inside links in IE 10.
- */
-img {
-	border-style: none;
-}
-
-/* Forms
-	 ========================================================================== */
-
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-button,
-input,
-optgroup,
-select,
-textarea {
-	font-family: inherit;
-	font-size: 100%;
-	line-height: 1.15;
-	margin: 0;
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-button,
-input {
-	overflow: visible;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-button,
-select {
-	text-transform: none;
-}
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-	-webkit-appearance: button;
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-	border-style: none;
-	padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-	outline: 1px dotted ButtonText;
-}
-
-/**
- * Correct the padding in Firefox.
- */
-fieldset {
-	padding: 0.35em 0.75em 0.625em;
-}
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *		`fieldset` elements in all browsers.
- */
-legend {
-	box-sizing: border-box;
-	color: inherit;
-	display: table;
-	max-width: 100%;
-	padding: 0;
-	white-space: normal;
-}
-
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-progress {
-	vertical-align: baseline;
-}
-
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-textarea {
-	overflow: auto;
-}
-
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-[type="checkbox"],
-[type="radio"] {
-	box-sizing: border-box;
-	padding: 0;
-}
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-	height: auto;
-}
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-[type="search"] {
-	-webkit-appearance: textfield;
-	outline-offset: -2px;
-}
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-[type="search"]::-webkit-search-decoration {
-	-webkit-appearance: none;
-}
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-::-webkit-file-upload-button {
-	-webkit-appearance: button;
-	font: inherit;
-}
-
-/* Interactive
-	 ========================================================================== */
-
-/*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
-details {
-	display: block;
-}
-
-/*
- * Add the correct display in all browsers.
- */
-summary {
-	display: list-item;
-}
-
-/* Misc
-	 ========================================================================== */
-
-/**
- * Add the correct display in IE 10+.
- */
-template {
-	display: none;
-}
-
-/**
- * Add the correct display in IE 10.
- */
-[hidden] {
-	display: none;
-}
-
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
-body,
-button,
-input,
-select,
-optgroup,
-textarea {
-	color: #404040;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	font-size: 1rem;
-	line-height: 1.5;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	clear: both;
+.button:hover {
+  color: white;
+  background-color: #ff5050;
+  transition: 0.25s ease-in-out;
+  border-style: solid;
+  border-width: 1.25px;
+  border-color: #ff5050;
 }
 
 p {
-	margin-bottom: 1.5em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
-dfn,
-cite,
-em,
-i {
-	font-style: italic;
+/*Header*/
+
+header {
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+}
+
+header svg {
+  height: 8vh;
+}
+
+.hamburgerMenu {
+  margin-top: 1.5rem;
+  float: right;
+  height: fit-content;
+  margin-right: 2rem;
+  cursor: pointer;
+  position: fixed;
+  z-index: 2;
+  display: inline;
+  right: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.logoContainer {
+  display: inline-block;
+  padding-left: 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#one.hamburgerLine {
+  width: 50px;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #23144c;
+  margin-bottom: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+#two.hamburgerLine {
+  width: 50px;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #23144c;
+  margin-bottom: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+#three.hamburgerLine {
+  width: 50px;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #23144c;
+  transition: all 0.5s ease-in-out;
+}
+
+.hamburgerMenu:hover #one.hamburgerLine,
+.hamburgerMenu:hover #two.hamburgerLine,
+.hamburgerMenu:hover #three.hamburgerLine {
+  background-color: #040308;
+  transition: all 0.25s ease-in-out;
+}
+
+.hamburgerMenu.on #one.hamburgerLine {
+  background-color: white;
+  transform: rotate(45deg) translate(10px, 10px);
+  transition: all 0.5s ease-in-out;
+}
+
+.hamburgerMenu.on #two.hamburgerLine {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.hamburgerMenu.on #three.hamburgerLine {
+  background-color: white;
+  transform: rotate(-45deg) translate(13px, -13px);
+  transition: all 0.5s ease-in-out;
+}
+
+.overlay {
+  opacity: 0;
+  width: 0%;
+  display: table-column;
+}
+
+.hamburgerMenu.on .overlay {
+  background-color: #23144c;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: show;
+  transition: opacity 0.35s, visibility 0.35s, width 0.35s;
+  overflow: hidden;
+  z-index: -1;
+}
+
+nav ul {
+  top: 0%;
+  position: relative;
+  opacity: 0;
+}
+
+.hamburgerMenu.on nav ul {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: opacity 0.35s, visibility 0.35s, width 0.35s;
+}
+
+nav li {
+  list-style: none;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: right;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+nav a {
+  color: white;
+  z-index: 2;
+}
+
+nav a:hover {
+  color: #45f4ef;
+  transition: 0.25s ease-in-out;
+}
+
+nav a:focus {
+  outline: none;
+  color: #45f4ef;
+  transition: 0.25s ease-in-out;
+}
+
+/*Home*/
+
+.firstSection {
+  width: 100%;
+  height: 100vh;
+}
+
+.firstSection h2 {
+  margin-top: 2rem;
+}
+
+.taglineContainer {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  padding: 2rem;
+}
+
+.homeButtons {
+  margin-top: 2rem;
+}
+
+.pageLinkSection {
+  padding-left: 2rem;
+  width: 100%;
+  height: 650px;
+}
+
+.pageLinkSection h1 {
+  width: fit-content;
 }
 
-blockquote {
-	margin: 0 1.5em;
+.pageLinkSection.homeButtons {
+  width: fit-content;
 }
 
-address {
-	margin: 0 0 1.5em;
+.pageLinkSection p {
+  padding-top: 2rem;
 }
 
-pre {
-	background: #eee;
-	font-family: "Courier 10 Pitch", courier, monospace;
-	font-size: 0.9375rem;
-	line-height: 1.6;
-	margin-bottom: 1.6em;
-	max-width: 100%;
-	overflow: auto;
-	padding: 1.6em;
+.contentContainer {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
 }
 
-code,
-kbd,
-tt,
-var {
-	font-family: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-	font-size: 0.9375rem;
+.pageLinkSection img {
+  width: 30%;
+  height: 650px;
+  background-color: #23144c;
+  overflow: hidden;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
 }
 
-abbr,
-acronym {
-	border-bottom: 1px dotted #666;
-	cursor: help;
+.servicesSection {
+  background-color: #fffbf8;
 }
 
-mark,
-ins {
-	background: #fff9c0;
-	text-decoration: none;
+.servicesSection li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
-big {
-	font-size: 125%;
+.servicesSection h5 {
+  padding-top: 6rem;
+  text-align: center;
 }
 
-/*--------------------------------------------------------------
-# Elements
---------------------------------------------------------------*/
+.servicesTrio {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 
-/* Inherit box-sizing to more easily change it's value on a component level.
-@link http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
+.servicesTrio h2 {
+  line-height: 0.75rem;
+  padding-top: 0.75rem;
 }
 
-html {
-	box-sizing: border-box;
+.servicesIcon {
+  width: fit-content;
+  margin: 0 auto;
 }
 
-body {
-	background: #fff;
+.servicesIcon svg {
+  height: 150px;
+  margin: 0 auto;
 }
 
-hr {
-	background-color: #ccc;
-	border: 0;
-	height: 1px;
-	margin-bottom: 1.5em;
+.servicesColumn {
+  width: fit-content;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5rem;
 }
 
-ul,
-ol {
-	margin: 0 0 1.5em 3em;
+.servicesColumn li {
+  display: block;
 }
 
-ul {
-	list-style: disc;
+.howWeWorkIcon {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+  width: fit-content;
 }
 
-ol {
-	list-style: decimal;
+.workSection {
+  width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
 }
 
-li > ul,
-li > ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
+.workSection h2 {
+  font-size: 1rem;
+  padding-top: 2rem;
+  text-align: center;
 }
 
-dt {
-	font-weight: 700;
-}
-
-dd {
-	margin: 0 1.5em 1.5em;
-}
-
-img {
-	height: auto;
-	max-width: 100%;
-}
-
-figure {
-	margin: 1em 0;
-}
-
-table {
-	margin: 0 0 1.5em;
-	width: 100%;
-}
-
-/*--------------------------------------------------------------
-# Forms
---------------------------------------------------------------*/
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
-	color: rgba(0, 0, 0, 0.8);
-	font-size: 0.75rem;
-	line-height: 1;
-	padding: 0.6em 1em 0.4em;
+.workSection p {
+  padding-top: 2rem;
+  text-align: center;
 }
 
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
+.workSection svg {
+  height: 75px;
 }
 
-button:active,
-button:focus,
-input[type="button"]:active,
-input[type="button"]:focus,
-input[type="reset"]:active,
-input[type="reset"]:focus,
-input[type="submit"]:active,
-input[type="submit"]:focus {
-	border-color: #aaa #bbb #bbb;
+.homeAccordion {
+  margin-top: 2rem;
+  width: 100%;
+  height: 4rem;
+  display: inline-block;
+  border-radius: 4rem;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1.25px;
+  color: #23144c;
+  cursor: pointer;
+  user-select: none;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
-textarea {
-	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	padding: 3px;
+.accordionText p {
+  text-align: left;
+  padding-left: 2rem;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-input[type="range"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="week"]:focus,
-input[type="time"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="color"]:focus,
-textarea:focus {
-	color: #111;
+.homeAccordion h2 {
+  padding: 0rem;
+  padding-left: 2rem;
+  margin: 0rem;
+  margin-top: 1.25rem;
+  text-align: left;
+  width: fit-content;
+  display: inline-block;
 }
 
-select {
-	border: 1px solid #ccc;
+.homeAccordion:hover {
+  color: white;
+  background-color: #23144c;
+  transition: 0.25s ease-in-out;
+  border-style: solid;
+  border-width: 1.25px;
+  border-color: #23144c;
 }
 
-textarea {
-	width: 100%;
+.homeAccordion:hover h2 {
+  color: white;
+  transition: 0.25s ease-in-out;
 }
 
-/*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
+.homeAccordion:hover .accordionCircle {
+  transition: 0.25s ease-in-out;
+  border-color: white;
+}
 
-/*--------------------------------------------------------------
-## Links
---------------------------------------------------------------*/
-a {
-	color: #4169e1;
+.homeAccordion ~ .accordionText {
+  visibility: hidden;
+  display: none;
 }
 
-a:visited {
-	color: #800080;
+.homeAccordion.open + #accordion1 {
+  visibility: visible;
+  display: block;
 }
 
-a:hover,
-a:focus,
-a:active {
-	color: #191970;
+.homeAccordion.open + #accordion2 {
+  visibility: visible;
+  display: block;
 }
 
-a:focus {
-	outline: thin dotted;
+.homeAccordion.open + #accordion3 {
+  visibility: visible;
+  display: block;
 }
 
-a:hover,
-a:active {
-	outline: 0;
+.homeAccordion.open + #accordion4 {
+  visibility: visible;
+  display: block;
 }
 
-/*--------------------------------------------------------------
-## Menus
---------------------------------------------------------------*/
-.main-navigation {
-	display: block;
-	width: 100%;
+.accordionCircle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  background-color: transparent;
+  transition: 0.25s ease-in-out;
+  border-style: solid;
+  border-width: 1.25px;
+  border-color: #23144c;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 0.4rem;
 }
 
-.main-navigation ul {
-	display: none;
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
+.accordionCircle h2 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  padding-left: 0.2rem;
+  transform: translateY(-0.15rem);
 }
 
-.main-navigation ul ul {
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
-	position: absolute;
-	top: 100%;
-	left: -999em;
-	z-index: 99999;
+.blueCircle {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  border: 2rem solid #45f4ef;
+  border-radius: 20vw;
+  right: 0;
+  top: 0;
+  float: right;
+  transform: translate(10vw, 30vh);
 }
 
-.main-navigation ul ul ul {
-	left: -999em;
-	top: 0;
+.blueCircle2 {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  border: 2rem solid #45f4ef;
+  border-radius: 20vw;
+  right: 0;
+  top: 0;
+  float: right;
+  transform: translate(10vw, 60vh);
 }
+/*Who We Are*/
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
-	display: block;
-	left: auto;
+.nonHomeSection {
+  width: 100%;
+  height: 100vh;
 }
 
-.main-navigation ul ul a {
-	width: 200px;
+.nonHomeSection h2 {
+  margin-bottom: 2rem;
 }
 
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-	left: auto;
+.partnersSection {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
-.main-navigation li {
-	position: relative;
+.partnersSection p {
+  width: 55%;
+  padding-top: 2rem;
 }
 
-.main-navigation a {
-	display: block;
-	text-decoration: none;
+.otherPartners p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  color: #23144c;
+  width: 100%;
+  column-count: 2;
+  margin-top: 2rem;
 }
+
+/*Footer*/
 
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-	display: block;
+footer {
+  color: white;
+  height: fit-content;
+  width: 100%;
+  padding: 2rem;
+  background-color: #23144c;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
 }
 
-@media screen and (min-width: 37.5em) {
+.footerLeft {
+  display: inline-block;
+  width: 50%;
+  height: fit-content;
+}
 
-	.menu-toggle {
-		display: none;
-	}
+.footerMotto {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  width: 50%;
+}
 
-	.main-navigation ul {
-		display: flex;
-	}
+.socialBar {
+  color: white;
+  margin-bottom: 1rem;
 }
 
-.site-main .comment-navigation,
-.site-main
-.posts-navigation,
-.site-main
-.post-navigation {
-	margin: 0 0 1.5em;
+.socialBar li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 1rem;
 }
 
-.comment-navigation .nav-links,
-.posts-navigation .nav-links,
-.post-navigation .nav-links {
-	display: flex;
+.socialBar svg {
+  fill: white;
+  height: 1.5rem;
 }
 
-.comment-navigation .nav-previous,
-.posts-navigation .nav-previous,
-.post-navigation .nav-previous {
-	flex: 1 0 50%;
+.socialBar li:hover .socialBar svg {
+  fill: #45f4ef;
 }
 
-.comment-navigation .nav-next,
-.posts-navigation .nav-next,
-.post-navigation .nav-next {
-	text-align: end;
-	flex: 1 0 50%;
+.copyrightInfo {
+  font-size: 10.5px;
 }
 
-/*--------------------------------------------------------------
-# Accessibility
---------------------------------------------------------------*/
+.footerRight {
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+  vertical-align: top;
+  text-transform: uppercase;
+}
 
-/* Text meant only for screen readers. */
-.screen-reader-text {
-	border: 0;
-	clip: rect(1px, 1px, 1px, 1px);
-	clip-path: inset(50%);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute !important;
-	width: 1px;
-	word-wrap: normal !important;
+.footerRight li {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.screen-reader-text:focus {
-	background-color: #f1f1f1;
-	border-radius: 3px;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	clip: auto !important;
-	clip-path: none;
-	color: #21759b;
-	display: block;
-	font-size: 0.875rem;
-	font-weight: 700;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000;
+.footerRight a {
+  color: inherit;
+  text-decoration: none;
 }
 
-/* Do not show the outline on the skip link target. */
-#primary[tabindex="-1"]:focus {
-	outline: 0;
+.footerRight a:hover {
+  color: #45f4ef;
+  transition: 0.25s ease-in-out;
 }
 
-/*--------------------------------------------------------------
-# Alignments
---------------------------------------------------------------*/
-.alignleft {
-	float: left;
-	margin-right: 1.5em;
-	margin-bottom: 1.5em;
+.footerLogo {
+  padding-top: 2rem;
 }
 
-.alignright {
-	float: right;
-	margin-left: 1.5em;
-	margin-bottom: 1.5em;
+.footerLogo svg {
+  height: 4rem;
+  fill: white;
 }
 
-.aligncenter {
-	clear: both;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 1.5em;
+/*Workspace*/
+.workspaceTagline {
+  width: 100%;
+  height: 80vh;
 }
 
-/*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
-.widget {
-	margin: 0 0 1.5em;
+.workspaceTagline h2 {
+  margin-bottom: 2rem;
 }
 
-.widget select {
-	max-width: 100%;
+.featuredContainer {
+  padding: 2rem;
+  padding-top: 0rem;
 }
 
-/*--------------------------------------------------------------
-# Content
---------------------------------------------------------------*/
+.featuredContainer h2 {
+  margin-bottom: 2rem;
+}
 
-/*--------------------------------------------------------------
-## Posts and pages
---------------------------------------------------------------*/
-.sticky {
-	display: block;
+.featuredContainer img {
+  width: 325px;
+  height: 500px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
-.post,
-.page {
-	margin: 0 0 1.5em;
+.featureOne {
+  vertical-align: top;
+  width: 325px;
+  height: 100%;
+  display: inline-block;
+  margin-right: 2rem;
 }
 
-.updated:not(.published) {
-	display: none;
+.featureOne h2 {
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0rem;
 }
 
-.page-content,
-.entry-content,
-.entry-summary {
-	margin: 1.5em 0 0;
+.featureMini {
+  margin-bottom: 1rem;
 }
 
-.page-links {
-	clear: both;
-	margin: 0 0 1.5em;
+.featureMini p {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  display: inline;
+  color: #707070;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
 }
 
-/*--------------------------------------------------------------
-## Comments
---------------------------------------------------------------*/
-.comment-content a {
-	word-wrap: break-word;
+/*Single Posts*/
+
+.caseContainer {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 6rem;
+  overflow: auto;
 }
 
-.bypostauthor {
-	display: block;
+.caseText {
+  width: 100%;
+  float: left;
 }
+
+/*Connect*/
 
-/*--------------------------------------------------------------
-# Infinite scroll
---------------------------------------------------------------*/
+.connectSection {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  padding-left: 2rem;
+}
 
-/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
-.infinite-scroll .posts-navigation,
-.infinite-scroll.neverending .site-footer {
-	display: none;
+.connectIcon {
+  width: 28%;
+  float: left;
+  vertical-align: top;
+  padding-top: 10rem;
+  padding-left: 2rem;
 }
 
-/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
-.infinity-end.neverending .site-footer {
-	display: block;
+.connectForm {
+  padding-right: 2rem;
+  width: 70%;
+  float: right;
 }
 
-/*--------------------------------------------------------------
-# Media
---------------------------------------------------------------*/
-.page-content .wp-smiley,
-.entry-content .wp-smiley,
-.comment-content .wp-smiley {
-	border: none;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 0;
+.connectForm form {
+  padding-top: 1rem;
 }
 
-/* Make sure embeds and iframes fit their containers. */
-embed,
-iframe,
-object {
-	max-width: 100%;
+.connectForm h2 {
+  display: inline-block;
 }
 
-/* Make sure logo link wraps around logo image. */
-.custom-logo-link {
-	display: inline-block;
+.connectForm input {
+  border-style: solid;
+  border: none;
+  border-width: 1px;
+  border: 1px solid #23144c;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-/*--------------------------------------------------------------
-## Captions
---------------------------------------------------------------*/
-.wp-caption {
-	margin-bottom: 1.5em;
-	max-width: 100%;
+.connectForm form label {
+  display: block;
+  height: 2rem;
+  margin-top: 2rem;
 }
 
-.wp-caption img[class*="wp-image-"] {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.connectForm form textarea {
+  width: 50%;
+  height: 200px;
+  float: right;
+  border-style: solid;
+  border: none;
+  border-width: 1px;
+  border: 1px solid #23144c;
+  border-radius: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  resize: none;
 }
 
-.wp-caption .wp-caption-text {
-	margin: 0.8075em 0;
+.connectForm input[type="text"],
+input[type="email"] {
+  width: 50%;
+  float: right;
+  height: 2rem;
+  border-radius: 2rem;
 }
 
-.wp-caption-text {
-	text-align: center;
+.connectForm input[type="submit"] {
+  width: 50%;
+  display: block;
+  margin-top: 2rem;
+  float: right;
+  height: 2rem;
+  border-radius: 2rem;
+  border-style: solid;
+  border: none;
+  border-width: 1px;
+  border: 1px solid #23144c;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-/*--------------------------------------------------------------
-## Galleries
---------------------------------------------------------------*/
-.gallery {
-	margin-bottom: 1.5em;
-	display: grid;
-	grid-gap: 1.5em;
+#message {
+  height: 200px;
 }
 
-.gallery-item {
-	display: inline-block;
-	text-align: center;
-	width: 100%;
+#formTitle {
+  text-align: center;
+  float: right;
+  width: 50%;
+  font-size: 1rem;
 }
 
-.gallery-columns-2 {
-	grid-template-columns: repeat(2, 1fr);
+.connectForm #message textarea {
+  padding-top: 1rem;
 }
 
-.gallery-columns-3 {
-	grid-template-columns: repeat(3, 1fr);
+.connectForm input[type="submit"]:hover {
+  color: white;
+  background-color: #23144c;
+  transition: 0.25s ease-in-out;
 }
 
-.gallery-columns-4 {
-	grid-template-columns: repeat(4, 1fr);
+.connectForm input:focus {
+  outline: none;
 }
 
-.gallery-columns-5 {
-	grid-template-columns: repeat(5, 1fr);
+.connectForm textarea:focus {
+  outline: none;
 }
 
-.gallery-columns-6 {
-	grid-template-columns: repeat(6, 1fr);
+/*Media Queries*/
+/* Larger than tablet (also point when grid becomes active) */
+@media (min-width: 550px) {
 }
 
-.gallery-columns-7 {
-	grid-template-columns: repeat(7, 1fr);
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .caseText {
+    width: 40%;
+    float: right;
+  }
 }
+
+@media (min-width: 1000px) {
+  .hamburgerMenu.on .overlay {
+    width: 30%;
+  }
+  .connectIcon {
+    padding-left: 10rem;
+  }
+  .caseContainer {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .connectForm {
+    padding-left: 10rem;
+    padding-top: 6rem;
+    padding-right: 10rem;
+  }
+  .servicesTrio {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    transform: translateX(20%);
+  }
 
-.gallery-columns-8 {
-	grid-template-columns: repeat(8, 1fr);
+  #secondColumn {
+    margin-left: 4rem;
+  }
+  .servicesIcon {
+    margin: 0rem;
+  }
+  .servicesColumn {
+    width: 20%;
+    /*margin-left: 5rem;*/
+    display: inline-block;
+    text-align: left;
+  }
+  .servicesSection {
+    overflow: hidden;
+  }
+  .workSection svg {
+    height: 100px;
+  }
+  .workSection {
+    width: 50vw;
+  }
+  .taglineContainer {
+    padding: 10rem;
+  }
+  .featuredContainer {
+    padding: 10rem;
+    padding-top: 0rem;
+  }
+  .pageLinkSection {
+    padding-left: 10rem;
+    padding-top: 0rem;
+  }
+  .partnersSection {
+    padding-left: 10rem;
+    padding-top: 6rem;
+  }
+  .firstSection h1 {
+    width: 80%;
+  }
+  h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .servicesTrio h2 {
+    line-height: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  h5 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .button {
+    margin-right: 1rem;
+  }
 }
 
-.gallery-columns-9 {
-	grid-template-columns: repeat(9, 1fr);
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
 }
 
-.gallery-caption {
-	display: block;
+/* For Screens & Macs */
+@media (min-width: 2000px) {
 }

@@ -1,0 +1,30 @@
+footer {
+  color: white;
+  height: fit-content;
+  width: 100%;
+  padding: 2rem;
+  background-color: #23144c;
+}
+
+.footerLeft {
+  display: inline-block;
+  width: 50%;
+  height: fit-content;
+}
+
+.footerMotto {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.socialBar li {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+.footerRight {
+  display: inline-block;
+  width: 40%;
+}
