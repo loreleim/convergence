@@ -315,6 +315,16 @@ nav a:focus {
   text-align: center;
 }
 
+.accordionCircle h2 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  padding-left: 0.2rem;
+  transform: translateY(-0.15rem);
+}
+
 .blueCircle {
   position: relative;
   width: 20vw;
