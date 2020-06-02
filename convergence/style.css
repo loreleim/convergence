@@ -361,6 +361,12 @@ nav a:focus {
   padding-top: 6rem;
 }
 
+.workSection h2 {
+  font-size: 1rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
 
 .homeAccordion {
   margin-top: 2rem;
