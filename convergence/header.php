@@ -37,8 +37,14 @@
 			<div id="one" class="hamburgerLine"></div>
 			<div id="two" class="hamburgerLine"></div>
 			<div id="three" class="hamburgerLine"></div>
-			<nav>
-				Navigation
+			<nav class="overlay" id="overlayID">
+				<ul>
+					<li><a href="home">Home</a></li>
+					<li><a href="whoweare">Who We Are</a></li>
+					<li><a href="workspace">Workspace</a></li>
+					<li><a href="tools">Tools</a></li>
+					<li><a href="connect">Connect</a></li>
+				</ul>
 			</nav>
 		</div>
 
