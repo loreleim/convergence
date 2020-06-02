@@ -325,6 +325,16 @@ nav a:focus {
   padding-top: 0.75rem;
 }
 
+.servicesIcon {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.servicesIcon svg {
+  height: 150px;
+  margin: 0 auto;
+}
+
 
 .homeAccordion:hover .accordionCircle {
   transition: 0.25s ease-in-out;
