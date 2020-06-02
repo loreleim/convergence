@@ -326,6 +326,11 @@ nav a:focus {
   margin-bottom: 2rem;
 }
 
+.partnersSection {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .otherPartners p {
   font-family: "Dosis", sans-serif;
   font-weight: 700;
