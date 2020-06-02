@@ -366,6 +366,8 @@ footer {
   height: 1.5rem;
 }
 
+.socialBar li:hover .socialBar svg {
+  fill: #45f4ef;
 }
 
 .copyrightInfo {
