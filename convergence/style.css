@@ -202,6 +202,11 @@ footer {
   background-color: #23144c;
   transition: 0.25s ease-in-out;
 }
+
+.connectForm input:focus {
+  outline: none;
+}
+
 /*Media Queries*/
 /* Larger than tablet (also point when grid becomes active) */
 @media (min-width: 550px) {
