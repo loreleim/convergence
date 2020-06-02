@@ -22,6 +22,7 @@
 		</div>
     </section>
 	<section class="partnersSection">
+			<h5><?php echo the_field('section2_title');?></h5>
 	</section>
 	
 </main>
