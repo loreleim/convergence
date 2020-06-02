@@ -361,6 +361,11 @@ footer {
   list-style: none;
   text-decoration: none;
   cursor: pointer;
+.socialBar svg {
+  fill: white;
+  height: 1.5rem;
+}
+
 }
 
 .copyrightInfo {
