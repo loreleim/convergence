@@ -23,6 +23,7 @@
     </section>
 	<section class="partnersSection">
 			<h5><?php echo the_field('section2_title');?></h5>
+			<p><?php echo the_field('section2_copy');?></p>
 	</section>
 	
 </main>
