@@ -320,6 +320,11 @@ nav a:focus {
   padding-bottom: 6rem;
 }
 
+.servicesTrio h2 {
+  line-height: 0.75rem;
+  padding-top: 0.75rem;
+}
+
 .accordionCircle h2 {
   font-size: 2rem;
   padding: 0;
