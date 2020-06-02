@@ -325,6 +325,10 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.featureMini {
+  margin-bottom: 1rem;
+}
+
 .featureMini p {
   text-transform: uppercase;
   font-size: 0.75rem;
