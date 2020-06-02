@@ -248,6 +248,9 @@ nav a:focus {
   height: 100vh;
 }
 
+.firstSection h2 {
+  margin-top: 2rem;
+}
 
 .taglineContainer {
   position: absolute;
