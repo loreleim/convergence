@@ -207,6 +207,10 @@ footer {
   outline: none;
 }
 
+.connectForm textarea:focus {
+  outline: none;
+}
+
 /*Media Queries*/
 /* Larger than tablet (also point when grid becomes active) */
 @media (min-width: 550px) {
