@@ -367,6 +367,9 @@ nav a:focus {
   text-align: center;
 }
 
+.workSection svg {
+  height: 75px;
+}
 
 .homeAccordion {
   margin-top: 2rem;
