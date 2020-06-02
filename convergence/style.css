@@ -407,6 +407,10 @@ footer {
   height: 80vh;
 }
 
+.workspaceTagline h2 {
+  margin-bottom: 2rem;
+}
+
 .featuredContainer {
   padding: 2rem;
   padding-top: 0rem;
