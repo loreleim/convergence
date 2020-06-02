@@ -108,6 +108,18 @@ header svg {
   height: 8vh;
 }
 
+.hamburgerMenu {
+  margin-top: 1.5rem;
+  float: right;
+  height: fit-content;
+  margin-right: 2rem;
+  cursor: pointer;
+  position: fixed;
+  z-index: 2;
+  display: inline;
+  right: 0;
+}
+
   transition: all 0.5s ease-in-out;
 .hamburgerMenu:hover #one.hamburgerLine,
 .hamburgerMenu:hover #two.hamburgerLine,
