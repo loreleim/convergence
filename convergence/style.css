@@ -361,6 +361,9 @@ footer {
   list-style: none;
   text-decoration: none;
   cursor: pointer;
+  margin-right: 1rem;
+}
+
 .socialBar svg {
   fill: white;
   height: 1.5rem;
