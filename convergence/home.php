@@ -54,6 +54,14 @@
 					<li><?php echo the_field('second_service3');?></li>
 					<li><?php echo the_field('second_service4');?></li>
 					<li><?php echo the_field('second_service5');?></li>
+					<h2><?php echo the_field('third_service');?></h2>
+					<li><?php echo the_field('third_service1');?></li>
+					<li><?php echo the_field('third_service2');?></li>
+					<li><?php echo the_field('third_service3');?></li>
+					<li><?php echo the_field('third_service4');?></li>
+					<li><?php echo the_field('third_service5');?></li>
+				</div>
+			</div>
 	<script type="text/javascript">
 		document.querySelectorAll(".homeAccordion").forEach(accordion =>{
 	accordion.addEventListener("click", () => {
