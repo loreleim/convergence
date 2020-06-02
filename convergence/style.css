@@ -396,6 +396,11 @@ footer {
   padding-top: 2rem;
 }
 
+.footerLogo svg {
+  height: 4rem;
+  fill: white;
+}
+
 .featuredContainer {
   padding: 2rem;
   padding-top: 0rem;
