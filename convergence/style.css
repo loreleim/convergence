@@ -193,6 +193,13 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+#formTitle {
+  text-align: center;
+  float: right;
+  width: 50%;
+  font-size: 1rem;
+}
+
 .connectForm #message textarea {
   padding-top: 1rem;
 }
