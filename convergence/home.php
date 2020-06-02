@@ -153,6 +153,26 @@
 	});
 });
 		
+		/*var circle = document.getElementsByClassName("blueCircle");
+			document.onmousemove = function() {
+				var x = event.clientX * 100 / window.innerWidth + %;
+				var y = event.clientY * 100 / window.innerHeight + %;
+				
+				for (var i=0; i<2; i++) {
+					circle[i].style.left = x;
+					circle[i].style.top = y;
+					circle[i].style.transform = "translate(-" +x+","+y+")";
+				}
+			}*/
+		
+		var circle = document.getElementsByClassName("blueCircle");
+			document.onmousemove = function() {
+				var x = event.clientX * 100/window.innerWidth;
+				console.log("this is the x location of your mouse"+ x);
+				var y = event.clientY * 100/window.innerHeight;
+				console.log("this is the y location of your mouse"+ y);
+			}
+		
 	</script>
 </main>
 
