@@ -326,6 +326,18 @@ nav a:focus {
   margin-bottom: 2rem;
 }
 
+.otherPartners p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  color: #23144c;
+  width: 100%;
+  column-count: 2;
+  margin-top: 2rem;
+}
+
 /*Footer*/
 
 footer {
