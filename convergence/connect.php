@@ -22,6 +22,7 @@
 			</div>
 	</section>
 		<div class="connectForm">
+			<h2 id="formTitle">Want to work with us?</h2>
 			<form action="https://formspree.io/maypwedq" method="POST" autocomplete="on">
 				<label><h2>Name</h2>
 					<input type="text" name="name">
