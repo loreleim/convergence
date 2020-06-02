@@ -22,6 +22,7 @@
 			</div>
 	</section>
 		<div class="connectForm">
+			<form action="https://formspree.io/maypwedq" method="POST" autocomplete="on">
 		</div>
 </main>
 
