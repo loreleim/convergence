@@ -315,6 +315,11 @@ nav a:focus {
   text-align: center;
 }
 
+.servicesTrio {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .accordionCircle h2 {
   font-size: 2rem;
   padding: 0;
