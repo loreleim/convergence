@@ -325,6 +325,22 @@ nav a:focus {
   padding-top: 0.75rem;
 }
 
+
+.homeAccordion.open + #accordion1 {
+  visibility: visible;
+  display: block;
+}
+
+.homeAccordion.open + #accordion2 {
+  visibility: visible;
+  display: block;
+}
+
+.homeAccordion.open + #accordion3 {
+  visibility: visible;
+  display: block;
+}
+
 .homeAccordion.open + #accordion4 {
   visibility: visible;
   display: block;
