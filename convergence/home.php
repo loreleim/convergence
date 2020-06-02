@@ -28,6 +28,20 @@
 		<div class="blueCircle"></div>
     </section>
 	
+	<section class="pageLinkSection">
+		<div class="contentContainer">
+			<h5><?php echo the_field('section2_title');?></h5>
+			<p><?php echo the_field('section2_text')?></p>
+            <a href=<?php echo the_field('section2_link');?> target="_blank">
+				<div class="homeButtons">
+					<div class="button">
+                		<h4><?php echo the_field('section2_button_text');?></h4>
+                	</div>
+				</div>
+             </a>
+		</div>
+		<img src="<?php echo the_field('section2_image');?>"/>
+	</section>
 	<script type="text/javascript">
 		document.querySelectorAll(".homeAccordion").forEach(accordion =>{
 	accordion.addEventListener("click", () => {
