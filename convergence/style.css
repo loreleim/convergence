@@ -301,6 +301,10 @@ nav a:focus {
   right: 0;
 }
 
+.servicesSection {
+  background-color: #fffbf8;
+}
+
 /*Who We Are*/
 
 .nonHomeSection {
