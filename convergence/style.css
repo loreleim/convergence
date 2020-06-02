@@ -241,6 +241,10 @@ footer {
   }
 }
 
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}
+
 /* For Screens & Macs */
 @media (min-width: 2000px) {
 }
