@@ -392,6 +392,10 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.footerLogo {
+  padding-top: 2rem;
+}
+
 .featuredContainer {
   padding: 2rem;
   padding-top: 0rem;
