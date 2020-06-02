@@ -71,6 +71,50 @@
 				</div>
 			</div>
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283 182.6"><g data-name="Layer 2"><g data-name="Layer 1"><g data-name="Group 620"><path data-name="Path 952" d="M100 91a91 91 0 0142-76 91 91 0 100 152 91 91 0 01-42-76z" fill="#45f4ef"/><path data-name="Path 953" d="M192 0a91 91 0 00-50 15 91 91 0 010 152A91 91 0 10192 0z" fill="#ff5050"/></g><path d="M168 141a91 91 0 0015-47v-3-2a91 91 0 00-41-74 91 91 0 00-41 76v1a91 91 0 0041 75 91 91 0 0026-26z" fill="#23144c"/></g> </g> </svg>
+				</div>
+				<h5><?php echo the_field('section5_title');?></h5>
+				<h2>Learning Experience Design</h2>
+				<p><?php echo the_field('section5_intro');?></p>
+				<div class="homeAccordion" id="test">
+					<h2><?php echo the_field('approach_1'); ?></h2>
+					<div class="accordionCircle">
+						<h2>+</h2>
+					</div>
+				</div>
+				<div class="accordionText" id="accordion1">
+					<p><?php echo the_field('approach1_text');?></p>
+				</div>
+				<div class="homeAccordion">
+					<h2><?php echo the_field('approach_2'); ?></h2>
+					<div class="accordionCircle">
+						<h2>+</h2>
+					</div>
+				</div>
+				<div class="accordionText" id="accordion2">
+					<p><?php echo the_field('approach2_text');?></p>
+				</div>
+				<div class="homeAccordion">
+					<h2><?php echo the_field('approach_3'); ?></h2>
+					<div class="accordionCircle">
+						<h2>+</h2>
+					</div>
+				</div>
+				<div class="accordionText" id="accordion3">
+					<p><?php echo the_field('approach3_text');?></p>
+				</div>
+				<div class="homeAccordion">
+					<h2><?php echo the_field('approach_4'); ?></h2>
+					<div class="accordionCircle">
+						<h2>+</h2>
+					</div>
+				</div>
+				<div class="accordionText" id="accordion4">
+					<p><?php echo the_field('approach4_text');?></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
 	<script type="text/javascript">
 		document.querySelectorAll(".homeAccordion").forEach(accordion =>{
 	accordion.addEventListener("click", () => {
