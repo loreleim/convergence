@@ -325,6 +325,14 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+
+.featuredContainer img {
+  width: 325px;
+  height: 500px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
 .featureOne h2 {
   margin-top: 1rem;
   line-height: 1.5rem;
