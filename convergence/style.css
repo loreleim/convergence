@@ -193,6 +193,14 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.connectForm input[type="text"],
+input[type="email"] {
+  width: 50%;
+  float: right;
+  height: 2rem;
+  border-radius: 2rem;
+}
+
 .connectForm input[type="submit"] {
   width: 50%;
   display: block;
