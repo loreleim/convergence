@@ -35,14 +35,6 @@ if ( $result-> have_posts() ) :
 			<h2><?php echo date('M'); ?> <?php echo date('Y'); ?> <?php echo the_field('feature_text');?></h2>
 
 	<?php while ( $result->have_posts() ) : $result->the_post(); ?>
-	<?php echo the_field('featured_image');?>
-	<?php echo the_field('title');?>
-	<a href="<?php echo the_field('medium_link');?>" target="_blank">	<div class="button">
-		Read More
-	</div></a>
-	<p>
-		<?php echo the_field('snippet');?>
-	</p>
 	
 	<?php endwhile; ?>
 	<?php endif; wp_reset_postdata(); ?>
