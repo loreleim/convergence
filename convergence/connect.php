@@ -21,6 +21,8 @@
 				</div>
 			</div>
 	</section>
+		<div class="connectForm">
+		</div>
 </main>
 
 <?php
