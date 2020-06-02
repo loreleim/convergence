@@ -347,6 +347,13 @@ nav a:focus {
   display: block;
 }
 
+.howWeWorkIcon {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+  width: fit-content;
+}
+
 
 .homeAccordion {
   margin-top: 2rem;
