@@ -282,6 +282,15 @@ nav a:focus {
   padding-top: 2rem;
 }
 
+.contentContainer {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
 /*Who We Are*/
 
 .nonHomeSection {
