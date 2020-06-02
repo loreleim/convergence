@@ -27,6 +27,16 @@
 		</div>
     </section>
 
+	<script type="text/javascript">
+		document.querySelectorAll(".homeAccordion").forEach(accordion =>{
+	accordion.addEventListener("click", () => {
+		if(document.getElementById('accordion1') && accordion.classList.contains("open"))
+			accordion.classList.remove("open");
+		else accordion.classList.add("open");
+	});
+});
+		
+	</script>
 </main>
 
 <?php
