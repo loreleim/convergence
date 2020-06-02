@@ -42,6 +42,18 @@
 		</div>
 		<img src="<?php echo the_field('section2_image');?>"/>
 	</section>
+					<h2><?php echo the_field('first_service');?></h2>
+					<li><?php echo the_field('first_service1');?></li>
+					<li><?php echo the_field('first_service2');?></li>
+					<li><?php echo the_field('first_service3');?></li>
+					<li><?php echo the_field('first_service4');?></li>
+					<li><?php echo the_field('first_service5');?></li>
+					<h2><?php echo the_field('second_service');?></h2>
+					<li><?php echo the_field('second_service1');?></li>
+					<li><?php echo the_field('second_service2');?></li>
+					<li><?php echo the_field('second_service3');?></li>
+					<li><?php echo the_field('second_service4');?></li>
+					<li><?php echo the_field('second_service5');?></li>
 	<script type="text/javascript">
 		document.querySelectorAll(".homeAccordion").forEach(accordion =>{
 	accordion.addEventListener("click", () => {
