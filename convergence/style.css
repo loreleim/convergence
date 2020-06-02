@@ -367,6 +367,11 @@ nav a:focus {
   text-align: center;
 }
 
+.workSection p {
+  padding-top: 2rem;
+  text-align: center;
+}
+
 .workSection svg {
   height: 75px;
 }
