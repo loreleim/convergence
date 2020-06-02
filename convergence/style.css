@@ -315,8 +315,18 @@ nav a:focus {
   text-align: center;
 }
 
+.blueCircle {
+  position: relative;
   width: 20vw;
   height: 20vw;
+  border: 2rem solid #45f4ef;
+  border-radius: 20vw;
+  right: 0;
+  top: 0;
+  float: right;
+  transform: translate(10vw, 30vh);
+}
+
 .blueCircle2 {
   position: relative;
   width: 20vw;
