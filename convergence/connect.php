@@ -23,6 +23,20 @@
 	</section>
 		<div class="connectForm">
 			<form action="https://formspree.io/maypwedq" method="POST" autocomplete="on">
+				<label><h2>Name</h2>
+					<input type="text" name="name">
+				</label>
+				<label><h2>Email</h2>
+					<input type="email" name="_replyto">
+				</label>
+				<label><h2>Organization</h2>
+					<input type="text">
+				</label>
+				<label id="message"><h2>Message</h2>
+					<textarea name="message"></textarea>
+				</label>
+				<input type="submit" value="Send">
+			</form>
 		</div>
 </main>
 
