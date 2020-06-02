@@ -212,6 +212,19 @@ nav ul {
   opacity: 1;
   transition: opacity 0.35s, visibility 0.35s, width 0.35s;
 }
+
+nav li {
+  list-style: none;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: right;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
 /*Home*/
 
 .firstSection {
