@@ -97,6 +97,13 @@ p {
 }
 
 /*Header*/
+
+header {
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+}
+
 /*Home*/
 
 .firstSection {
