@@ -221,13 +221,44 @@ footer {
   }
 }
 
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {
+  #secondColumn {
+    margin-left: 4rem;
+  }
+  .servicesIcon {
+    margin: 0rem;
+  }
+  .servicesColumn {
+    width: 20%;
+    /*margin-left: 5rem;*/
+    display: inline-block;
+    text-align: left;
+  }
+  .servicesSection {
+    overflow: hidden;
+  }
+  .workSection svg {
+    height: 100px;
+  }
+  .workSection {
+    width: 50vw;
+  }
   .taglineContainer {
     padding: 10rem;
   }
+  .featuredContainer {
+    padding: 10rem;
+    padding-top: 0rem;
+  }
+  .pageLinkSection {
+    padding-left: 10rem;
+    padding-top: 0rem;
+  }
+  .partnersSection {
+    padding-left: 10rem;
+    padding-top: 6rem;
+  }
   .firstSection h1 {
-    width: 70%;
+    width: 80%;
   }
   h1 {
     font-size: 5rem;
@@ -235,6 +266,14 @@ footer {
   }
   h2 {
     font-size: 1.5rem;
+  }
+  .servicesTrio h2 {
+    line-height: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  h5 {
+    font-size: 5rem;
+    line-height: 5rem;
   }
   .button {
     margin-right: 1rem;
