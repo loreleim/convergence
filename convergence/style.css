@@ -326,6 +326,11 @@ nav a:focus {
 }
 
 
+.homeAccordion:hover .accordionCircle {
+  transition: 0.25s ease-in-out;
+  border-color: white;
+}
+
 .homeAccordion ~ .accordionText {
   visibility: hidden;
   display: none;
