@@ -32,6 +32,7 @@ if ( $result-> have_posts() ) :
             </div>
 		</div>
     </section>
+			<h2><?php echo date('M'); ?> <?php echo date('Y'); ?> <?php echo the_field('feature_text');?></h2>
 
 	<?php while ( $result->have_posts() ) : $result->the_post(); ?>
 	<?php echo the_field('featured_image');?>
