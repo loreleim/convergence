@@ -325,6 +325,20 @@ nav a:focus {
   padding-top: 0.75rem;
 }
 
+.accordionCircle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  background-color: transparent;
+  transition: 0.25s ease-in-out;
+  border-style: solid;
+  border-width: 1.25px;
+  border-color: #23144c;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 0.4rem;
+}
+
 .accordionCircle h2 {
   font-size: 2rem;
   padding: 0;
