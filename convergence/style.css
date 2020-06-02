@@ -82,6 +82,13 @@ h5 {
   margin-bottom: 1rem;
 }
 
+.button:hover {
+  color: white;
+  background-color: #ff5050;
+  transition: 0.25s ease-in-out;
+  border-style: solid;
+  border-width: 1.25px;
+  border-color: #ff5050;
 }
 
 p {
