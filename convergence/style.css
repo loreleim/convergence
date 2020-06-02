@@ -249,6 +249,10 @@ footer {
   padding-top: 1rem;
 }
 
+.connectForm h2 {
+  display: inline-block;
+}
+
   border-style: solid;
   border: none;
   border-width: 1px;
