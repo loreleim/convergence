@@ -31,7 +31,24 @@ if ( $result-> have_posts() ) :
             </div>
 		</div>
     </section>
+	<?php while ( $result->have_posts() ) : $result->the_post(); ?>
+	
+
+		<div class="featureOne">
+			<img src="<?php echo the_field('featured_image');?>"/>
+			<h2><?php echo the_field('title');?></h2>
+			<a href="<?php echo the_field('medium_link');?>" target="_blank">
+				<div class="button">
+					<h4>Read More</h4>
+				</div>
+			</a>
+			<p><?php echo the_field('snippet');?></p>
+		</div>
+	
+	<?php endwhile; ?>
+	</section>
 	<?php endif; wp_reset_postdata(); ?>
+	
 </main>
 
 <?php
