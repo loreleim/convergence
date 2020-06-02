@@ -12,6 +12,10 @@ Version: 0.3.0
   box-sizing: border-box;
 }
 
+section {
+  overflow: hidden;
+}
+
 a {
   color: inherit;
   text-decoration: none;
