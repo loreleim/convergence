@@ -104,6 +104,10 @@ header {
   position: absolute;
 }
 
+header svg {
+  height: 8vh;
+}
+
 /*Home*/
 
 .firstSection {
