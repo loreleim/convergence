@@ -205,6 +205,13 @@ nav ul {
   opacity: 0;
 }
 
+.hamburgerMenu.on nav ul {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: opacity 0.35s, visibility 0.35s, width 0.35s;
+}
 /*Home*/
 
 .firstSection {
