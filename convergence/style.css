@@ -199,6 +199,12 @@ header svg {
   z-index: -1;
 }
 
+nav ul {
+  top: 0%;
+  position: relative;
+  opacity: 0;
+}
+
 /*Home*/
 
 .firstSection {
