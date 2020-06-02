@@ -7,6 +7,7 @@
 	get_header();
 $args = array(
 'post_type'=> 'post',
+'cat'      => [1],
 'orderby'    => 'ID',
 'post_status' => 'publish',
 'order'    => 'DESC',
