@@ -326,6 +326,11 @@ nav a:focus {
 }
 
 
+.homeAccordion ~ .accordionText {
+  visibility: hidden;
+  display: none;
+}
+
 .homeAccordion.open + #accordion1 {
   visibility: visible;
   display: block;
