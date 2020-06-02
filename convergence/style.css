@@ -245,6 +245,12 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.connectForm {
+  padding-right: 2rem;
+  width: 70%;
+  float: right;
+}
+
 .connectForm form {
   padding-top: 1rem;
 }
