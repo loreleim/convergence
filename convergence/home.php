@@ -25,8 +25,9 @@
                 </a>
             </div>
 		</div>
+		<div class="blueCircle"></div>
     </section>
-
+	
 	<script type="text/javascript">
 		document.querySelectorAll(".homeAccordion").forEach(accordion =>{
 	accordion.addEventListener("click", () => {
