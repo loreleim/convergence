@@ -193,6 +193,21 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.connectForm input[type="submit"] {
+  width: 50%;
+  display: block;
+  margin-top: 2rem;
+  float: right;
+  height: 2rem;
+  border-radius: 2rem;
+  border-style: solid;
+  border: none;
+  border-width: 1px;
+  border: 1px solid #23144c;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 #message {
   height: 200px;
 }
