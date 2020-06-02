@@ -263,6 +263,25 @@ nav a:focus {
 .homeButtons {
   margin-top: 2rem;
 }
+
+.pageLinkSection {
+  padding-left: 2rem;
+  width: 100%;
+  height: 650px;
+}
+
+.pageLinkSection h1 {
+  width: fit-content;
+}
+
+.pageLinkSection.homeButtons {
+  width: fit-content;
+}
+
+.pageLinkSection p {
+  padding-top: 2rem;
+}
+
 /*Who We Are*/
 
 .nonHomeSection {
