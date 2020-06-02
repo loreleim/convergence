@@ -21,6 +21,9 @@
             </div>
 		</div>
     </section>
+	<section class="partnersSection">
+	</section>
+	
 </main>
 
 <?php
