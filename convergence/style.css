@@ -193,6 +193,11 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+.connectForm input[type="submit"]:hover {
+  color: white;
+  background-color: #23144c;
+  transition: 0.25s ease-in-out;
+}
 /*Media Queries*/
 /* Larger than tablet (also point when grid becomes active) */
 @media (min-width: 550px) {
