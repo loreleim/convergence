@@ -193,6 +193,10 @@ footer {
   transition: 0.25s ease-in-out;
 }
 
+#message {
+  height: 200px;
+}
+
 #formTitle {
   text-align: center;
   float: right;
