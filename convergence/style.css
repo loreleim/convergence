@@ -59,6 +59,14 @@ h4 {
   padding-top: 0.75rem;
   letter-spacing: 0.1rem;
 }
+h5 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: #23144c;
+}
 }
 
 p {
