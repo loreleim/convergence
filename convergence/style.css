@@ -335,6 +335,14 @@ nav a:focus {
   margin: 0 auto;
 }
 
+.servicesColumn {
+  width: fit-content;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
 
 .homeAccordion:hover .accordionCircle {
   transition: 0.25s ease-in-out;
