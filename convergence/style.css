@@ -348,6 +348,14 @@ footer {
   object-fit: cover;
 }
 
+.featureOne {
+  vertical-align: top;
+  width: 325px;
+  height: 100%;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
 .featureOne h2 {
   margin-top: 1rem;
   line-height: 1.5rem;
